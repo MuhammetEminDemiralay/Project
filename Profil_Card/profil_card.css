@@ -142,3 +142,15 @@ body{
     margin-right: 5px;
     font-size: 18px;
 }
+
+#heart:hover{
+    color:red;
+}
+
+#message:hover{
+    color: green;
+}
+
+#share:hover{
+    color: orange;
+}

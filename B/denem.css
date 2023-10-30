@@ -1,0 +1,35 @@
+
+body{
+    padding: 0px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+.anaEleman{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    left: 50%;
+    top: 25%;
+    border: none;
+    background-color: orange;
+}
+
+.icEleman{
+    border: none;
+    background-color: red;
+    width: 180px;
+}
+
+.icEleman1{
+    flex-shrink: 2;
+}
+
+.icEleman2{
+  flex-shrink: 1;
+}
+
+
